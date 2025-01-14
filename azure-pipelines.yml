@@ -34,3 +34,10 @@ steps:
 
 - script: dotnet test $(solution) --configuration $(buildConfiguration) --no-build --collect:"XPlat Code Coverage"
   displayName: 'Test solution'
+
+- task: Docker@2
+  inputs:
+    containerRegistry: 'dockerhubconnection'
+    repository: 'lets2/weatherapi'
+    command: 'buildAndPush'
+    Dockerfile: '**/Dockerfile'
