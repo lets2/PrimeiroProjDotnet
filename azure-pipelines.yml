@@ -13,6 +13,11 @@ pool:
   demands:
     - agent.name -equals mylinuxagent
 
+variables:
+  solution: '*.sln'
+  buildPlataform: 'Any CPU'
+  buildConfiguration: 'Release'
+
 steps:
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
