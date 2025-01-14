@@ -12,6 +12,12 @@ Este projeto é uma API simples em .NET Core que fornece previsões meteorológi
 -   Criar agent self-hosted para conseguir executar o pipeline
 -   habilitar service connection com o docker hub para build e push das imagens
 
+## Capturas de tela
+
+![Painel durante a execução de um pipeline](img-az-devops-01.png)
+
+![Todos os pipelines executados](img-az-devops-02.png)
+
 ## Getting Started
 
 ### Requisitos
