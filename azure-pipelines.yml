@@ -6,8 +6,12 @@
 trigger:
 - main
 
+# pool:
+#   vmImage: ubuntu-latest
 pool:
-  vmImage: ubuntu-latest
+  name: 'Default'  # Pool where is the agent self-hosted
+  demands:
+    - agent.name -equals mylinuxagent
 
 steps:
 - script: echo Hello, world!
