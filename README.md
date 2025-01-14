@@ -4,6 +4,14 @@
 
 Este projeto é uma API simples em .NET Core que fornece previsões meteorológicas fictícias aleatórias. Ele serve como um exemplo a construção de APIs RESTful com .NET, incluindo um Swagger para documentação de rotas. Além disso, conta com um pipeline para estudo de CI/CD.
 
+## Alguns pontos importantes
+
+-   Conhecer o .NET, principais arquivos e diretórios, além de buildar e executar uma aplicação
+-   Desenvolver um Dockerfile funcional para a aplicação
+-   Criar um pipeline no Azure DevOps e ir adicionando tasks
+-   Criar agent self-hosted para conseguir executar o pipeline
+-   habilitar service connection com o docker hub para build e push das imagens
+
 ## Getting Started
 
 ### Requisitos
